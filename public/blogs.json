@@ -1,53 +1,52 @@
 [
-    {
-      "id": "101",
-      "cover": "https://via.placeholder.com/400x200.png?text=The+Art+of+Stillness",
-      "title": "The Art of Stillness",
-      "author": "Jane Doe",
-      "author_img": "https://via.placeholder.com/100.png?text=Jane",
-      "posted_date": "2025-01-01",
-      "reading_time": "5 min",
-      "hashtags": ["#mindfulness", "#selfcare", "#wellbeing"]
-    },
-    {
-      "id": "102",
-      "cover": "https://via.placeholder.com/400x200.png?text=Code+Like+a+Pro",
-      "title": "Code Like a Pro",
-      "author": "John Smith",
-      "author_img": "https://via.placeholder.com/100.png?text=John",
-      "posted_date": "2025-01-02",
-      "reading_time": "8 min",
-      "hashtags": ["#coding", "#development", "#software"]
-    },
-    {
-      "id": "103",
-      "cover": "https://via.placeholder.com/400x200.png?text=Journey+to+the+Stars",
-      "title": "Journey to the Stars",
-      "author": "Emily Starling",
-      "author_img": "https://via.placeholder.com/100.png?text=Emily",
-      "posted_date": "2025-01-03",
-      "reading_time": "12 min",
-      "hashtags": ["#space", "#exploration", "#science"]
-    },
-    {
-      "id": "104",
-      "cover": "https://via.placeholder.com/400x200.png?text=The+Secrets+of+Success",
-      "title": "The Secrets of Success",
-      "author": "Michael Chang",
-      "author_img": "https://via.placeholder.com/100.png?text=Michael",
-      "posted_date": "2025-01-04",
-      "reading_time": "10 min",
-      "hashtags": ["#motivation", "#success", "#career"]
-    },
-    {
-      "id": "105",
-      "cover": "https://via.placeholder.com/400x200.png?text=A+Taste+of+Adventure",
-      "title": "A Taste of Adventure",
-      "author": "Sophia Martinez",
-      "author_img": "https://via.placeholder.com/100.png?text=Sophia",
-      "posted_date": "2025-01-05",
-      "reading_time": "7 min",
-      "hashtags": ["#travel", "#food", "#adventure"]
-    }
-  ]
-  
+  {
+    "id": "101",
+    "cover": "https://i.ibb.co.com/yy7Zmdg/Art.jpg",
+    "title": "The Art of Stillness",
+    "author": "Daisy Thomas",
+    "author_img": "https://via.placeholder.com/100.png?text=Jane",
+    "posted_date": "2025-01-01",
+    "reading_time": 5,
+    "hashtags": ["mindfulness", "selfcare", "wellbeing"]
+  },
+  {
+    "id": "102",
+    "cover": "https://i.ibb.co.com/HP37g7D/Code.jpg",
+    "title": "How To Code Like a Pro (A Complete Guide For Beginners)",
+    "author": "Rajeeb Islam",
+    "author_img": "https://via.placeholder.com/100.png?text=John",
+    "posted_date": "2025-01-02",
+    "reading_time": 8,
+    "hashtags": ["coding", "development", "software"]
+  },
+  {
+    "id": "103",
+    "cover": "https://i.ibb.co.com/LCDBB3S/Stars.jpg",
+    "title": "Dive Into The Journey to the Stars",
+    "author": "Emily Starling",
+    "author_img": "https://via.placeholder.com/100.png?text=Emily",
+    "posted_date": "2025-01-03",
+    "reading_time": 12,
+    "hashtags": ["space", "exploration", "science"]
+  },
+  {
+    "id": "104",
+    "cover": "https://i.ibb.co.com/g9SFwCX/Success.jpg",
+    "title": "The Secrets of Success",
+    "author": "Michael Chang",
+    "author_img": "https://via.placeholder.com/100.png?text=Michael",
+    "posted_date": "2025-01-04",
+    "reading_time": 10,
+    "hashtags": ["motivation", "success", "career"]
+  },
+  {
+    "id": "105",
+    "cover": "https://i.ibb.co.com/h7mQ7tr/Adevnture.jpg",
+    "title": "Best Places Around The World For Adventure Lovers",
+    "author": "Sophia Martinez",
+    "author_img": "https://via.placeholder.com/100.png?text=Sophia",
+    "posted_date": "2025-01-05",
+    "reading_time": 7,
+    "hashtags": ["travel", "food", "adventure"]
+  }
+]

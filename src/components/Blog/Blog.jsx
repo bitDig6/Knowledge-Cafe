@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import { FaBookmark } from 'react-icons/fa'
+import { FaBookmark } from 'react-icons/fa';
+import { FaCheck } from "react-icons/fa6";
 
 const Blog = ({ blog, handleAddBookmarks, handleMarkAsRead, markAsRead }) => {
     const {id, cover, title, author, author_img, posted_date, reading_time, hashtags } = blog;
@@ -40,7 +41,7 @@ const Blog = ({ blog, handleAddBookmarks, handleMarkAsRead, markAsRead }) => {
             disabled={markAsRead}
             onClick={() => handleMarkAsRead(id, reading_time)}
             className='text-blue-900 font-semibold underline'>
-                {markAsRead ? 'Already Read' : 'Mark As Read'}
+                {markAsRead ? `Already Read ${<FaCheck></FaCheck>}` : `Mark As Read`}
             </button>
         </div>
     );

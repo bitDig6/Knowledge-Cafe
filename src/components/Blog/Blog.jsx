@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
-import { FaBookmark } from 'react-icons/fa';
-import { FaCheck } from "react-icons/fa6";
+// import { FaBookmark, FaCheck } from 'react-icons/fa';
+import { FaBookmark} from 'react-icons/fa';
 
-const Blog = ({ blog, handleAddBookmarks, handleMarkAsRead, markAsRead }) => {
+const Blog = ({ blog, handleAddBookmarks, handleMarkAsRead}) => {
     const {id, cover, title, author, author_img, posted_date, reading_time, hashtags } = blog;
 
-    const disableButton = {
-        color: markAsRead && 'gray',
-    }
+    // const disableButton = {
+    //     color: markAsRead && 'gray',
+    // }
 
     return (
         <div className='mb-20 space-y-4'>
@@ -37,11 +37,9 @@ const Blog = ({ blog, handleAddBookmarks, handleMarkAsRead, markAsRead }) => {
                 }
             </div>
             <button 
-            style={ disableButton }
-            disabled={markAsRead}
             onClick={() => handleMarkAsRead(id, reading_time)}
             className='text-blue-900 font-semibold underline'>
-                {markAsRead ? `Already Read ${<FaCheck></FaCheck>}` : `Mark As Read`}
+                {/* {markAsRead ? <div className='flex gap-2 items-center'>Already Read <span className='text-lime-600'><FaCheck></FaCheck></span> </div>: <div>Mark As Read</div>} */}Mark As Read
             </button>
         </div>
     );
@@ -51,7 +49,7 @@ Blog.propTypes = {
     blog: PropTypes.object.isRequired,
     handleAddBookmarks: PropTypes.func.isRequired,
     handleMarkAsRead: PropTypes.func.isRequired,
-    markAsRead: PropTypes.bool.isRequired,
+    // markAsRead: PropTypes.bool.isRequired,
 }
 
 export default Blog;

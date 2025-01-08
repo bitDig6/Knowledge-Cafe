@@ -7,7 +7,8 @@ import Header from './components/Header/Header'
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
   const [readingTime, setReadingTime] = useState(0);
-  const [markAsRead, SetMarkAsRead] = useState(false);
+  // const [markAsReads, setMarkAsReads] = useState(Array(5).fill(false));
+  // const [markAsRead, setMarkAsRead] = useState(false);
 
   const handleAddBookmarks = blog =>{
       console.log('bookmarking this blog', blog);
@@ -20,7 +21,8 @@ function App() {
     setReadingTime(readingTime + time);
     const newBookmark = bookmarks.filter( bookmark => bookmark.id !==id);
     setBookmarks(newBookmark);
-    SetMarkAsRead(true);
+    // const newMarkAsReads = [...markAsReads];
+    // setMarkAsRead(true);
   }
 
   return (
@@ -29,8 +31,7 @@ function App() {
       <main className='md:flex p-5 gap-6 max-w-7xl mx-auto'>
         <Blogs 
         handleAddBookmarks={handleAddBookmarks}
-        handleMarkAsRead={handleMarkAsRead}
-        markAsRead={markAsRead}>
+        handleMarkAsRead={handleMarkAsRead}>
         </Blogs>
         <Bookmarks 
         bookmarks={bookmarks}
